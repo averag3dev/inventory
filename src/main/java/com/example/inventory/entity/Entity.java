@@ -6,7 +6,7 @@ import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBHashKey;
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
 import lombok.Data;
 
-@DynamoDBTable(tableName = "automobiles")
+@DynamoDBTable(tableName = "inventory")
 @Data
 public class Entity {
 
